@@ -1,0 +1,9 @@
+version: v1
+deps:
+lint:
+  use:
+    - MINIMAL
+  allow_comment_ignores: true
+breaking:
+  use:
+    - FILE
