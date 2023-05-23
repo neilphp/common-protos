@@ -10,9 +10,7 @@ use Google\Protobuf\Internal\GPBUtil;
 
 /**
  * `Schema` is a representation of OpenAPI v2 specification's Schema object.
- *
  * See: https://github.com/OAI/OpenAPI-Specification/blob/3.0.0/versions/2.0.md#schemaObject
- *
  *
  * Generated from protobuf message <code>grpc.gateway.protoc_gen_openapiv2.options.Schema</code>
  */

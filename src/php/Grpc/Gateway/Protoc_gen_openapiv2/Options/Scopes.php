@@ -10,9 +10,7 @@ use Google\Protobuf\Internal\GPBUtil;
 
 /**
  * `Scopes` is a representation of OpenAPI v2 specification's Scopes object.
- *
  * See: https://github.com/OAI/OpenAPI-Specification/blob/3.0.0/versions/2.0.md#scopesObject
- *
  * Lists the available scopes for an OAuth2 security scheme.
  *
  * Generated from protobuf message <code>grpc.gateway.protoc_gen_openapiv2.options.Scopes</code>

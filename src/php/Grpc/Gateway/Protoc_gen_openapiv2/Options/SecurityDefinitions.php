@@ -11,9 +11,7 @@ use Google\Protobuf\Internal\GPBUtil;
 /**
  * `SecurityDefinitions` is a representation of OpenAPI v2 specification's
  * Security Definitions object.
- *
  * See: https://github.com/OAI/OpenAPI-Specification/blob/3.0.0/versions/2.0.md#securityDefinitionsObject
- *
  * A declaration of the security schemes available to be used in the
  * specification. This does not enforce the security schemes on the operations
  * and only serves to provide the relevant details for each scheme.

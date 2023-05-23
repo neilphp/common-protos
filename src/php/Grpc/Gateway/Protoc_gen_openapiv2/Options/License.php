@@ -10,11 +10,8 @@ use Google\Protobuf\Internal\GPBUtil;
 
 /**
  * `License` is a representation of OpenAPI v2 specification's License object.
- *
  * See: https://github.com/OAI/OpenAPI-Specification/blob/3.0.0/versions/2.0.md#licenseObject
- *
  * Example:
- *
  *  option (grpc.gateway.protoc_gen_openapiv2.options.openapiv2_swagger) = {
  *    info: {
  *      ...
@@ -26,7 +23,6 @@ use Google\Protobuf\Internal\GPBUtil;
  *    };
  *    ...
  *  };
- *
  *
  * Generated from protobuf message <code>grpc.gateway.protoc_gen_openapiv2.options.License</code>
  */

@@ -10,11 +10,8 @@ use Google\Protobuf\Internal\GPBUtil;
 
 /**
  * `Info` is a representation of OpenAPI v2 specification's Info object.
- *
  * See: https://github.com/OAI/OpenAPI-Specification/blob/3.0.0/versions/2.0.md#infoObject
- *
  * Example:
- *
  *  option (grpc.gateway.protoc_gen_openapiv2.options.openapiv2_swagger) = {
  *    info: {
  *      title: "Echo API";
@@ -32,7 +29,6 @@ use Google\Protobuf\Internal\GPBUtil;
  *    };
  *    ...
  *  };
- *
  *
  * Generated from protobuf message <code>grpc.gateway.protoc_gen_openapiv2.options.Info</code>
  */

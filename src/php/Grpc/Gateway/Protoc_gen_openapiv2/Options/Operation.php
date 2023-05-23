@@ -10,17 +10,13 @@ use Google\Protobuf\Internal\GPBUtil;
 
 /**
  * `Operation` is a representation of OpenAPI v2 specification's Operation object.
- *
  * See: https://github.com/OAI/OpenAPI-Specification/blob/3.0.0/versions/2.0.md#operationObject
- *
  * Example:
- *
  *  service EchoService {
  *    rpc Echo(SimpleMessage) returns (SimpleMessage) {
  *      option (google.api.http) = {
  *        get: "/v1/example/echo/{id}"
  *      };
- *
  *      option (grpc.gateway.protoc_gen_openapiv2.options.openapiv2_operation) = {
  *        summary: "Get a message.";
  *        operation_id: "getMessage";

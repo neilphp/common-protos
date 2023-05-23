@@ -11,9 +11,7 @@ use Google\Protobuf\Internal\GPBUtil;
 /**
  * `SecurityScheme` is a representation of OpenAPI v2 specification's
  * Security Scheme object.
- *
  * See: https://github.com/OAI/OpenAPI-Specification/blob/3.0.0/versions/2.0.md#securitySchemeObject
- *
  * Allows the definition of a security scheme that can be used by the
  * operations. Supported schemes are basic authentication, an API key (either as
  * a header or as a query parameter) and OAuth2's common flows (implicit,

@@ -11,16 +11,11 @@ use Google\Protobuf\Internal\GPBUtil;
 /**
  * `JSONSchema` represents properties from JSON Schema taken, and as used, in
  * the OpenAPI v2 spec.
- *
  * This includes changes made by OpenAPI v2.
- *
  * See: https://github.com/OAI/OpenAPI-Specification/blob/3.0.0/versions/2.0.md#schemaObject
- *
  * See also: https://cswr.github.io/JsonSchema/spec/basic_types/,
  * https://github.com/json-schema-org/json-schema-spec/blob/master/schema.json
- *
  * Example:
- *
  *  message SimpleMessage {
  *    option (grpc.gateway.protoc_gen_openapiv2.options.openapiv2_schema) = {
  *      json_schema: {
@@ -29,14 +24,12 @@ use Google\Protobuf\Internal\GPBUtil;
  *        required: ["id"]
  *      }
  *    };
- *
  *    // Id represents the message identifier.
  *    string id = 1; [
  *        (grpc.gateway.protoc_gen_openapiv2.options.openapiv2_field) = {
  *          {description: "The unique identifier of the simple message."
  *        }];
  *  }
- *
  *
  * Generated from protobuf message <code>grpc.gateway.protoc_gen_openapiv2.options.JSONSchema</code>
  */

@@ -11,11 +11,8 @@ use Google\Protobuf\Internal\GPBUtil;
 /**
  * `ExternalDocumentation` is a representation of OpenAPI v2 specification's
  * ExternalDocumentation object.
- *
  * See: https://github.com/OAI/OpenAPI-Specification/blob/3.0.0/versions/2.0.md#externalDocumentationObject
- *
  * Example:
- *
  *  option (grpc.gateway.protoc_gen_openapiv2.options.openapiv2_swagger) = {
  *    ...
  *    external_docs: {
@@ -24,7 +21,6 @@ use Google\Protobuf\Internal\GPBUtil;
  *    }
  *    ...
  *  };
- *
  *
  * Generated from protobuf message <code>grpc.gateway.protoc_gen_openapiv2.options.ExternalDocumentation</code>
  */
