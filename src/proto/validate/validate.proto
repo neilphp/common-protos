@@ -2,7 +2,7 @@ syntax = "proto3";
 package validate;
 
 option go_package = "github.com/envoyproxy/protoc-gen-validate/validate";
-option php_metadata_namespace = "GPBMetadata\\Validate\\Validate";
+option php_metadata_namespace = "GPBMetadata\\Validate";
 option java_package = "io.envoyproxy.pgv.validate";
 
 import "google/protobuf/descriptor.proto";

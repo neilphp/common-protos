@@ -56,7 +56,7 @@ class FieldRules extends \Google\Protobuf\Internal\Message
      * }
      */
     public function __construct($data = NULL) {
-        \GPBMetadata\Validate\Validate\Validate::initOnce();
+        \GPBMetadata\Validate\Validate::initOnce();
         parent::__construct($data);
     }
 
