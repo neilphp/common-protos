@@ -1,12 +1,12 @@
 {
   "name": "neilphp/common-protos",
-  "description": "description",
+  "description": "一些protobuf协议共用的类库",
   "minimum-stability": "stable",
   "license": "proprietary",
   "authors": [
     {
-      "name": "Administrator",
-      "email": "email@example.com"
+      "name": "Neil",
+      "email": "nyg1991@aliyun.com"
     }
   ],
   "require": {
